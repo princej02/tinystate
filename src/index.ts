@@ -1,1 +1,2 @@
-console.log("Hello via Bun!");
+export { createMachine } from './core/createMachine'
+export type { Actor } from './core/types'
