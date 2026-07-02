@@ -2,6 +2,7 @@
   "name": "@prince_j/tinystate",
   "version": "1.0.0",
   "type": "module",
+  "license": "MIT",
   "files": [
     "dist"
   ],
