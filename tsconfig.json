@@ -9,5 +9,7 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
+    "declaration": true,
+    "isolatedDeclarations": true
   }
 }
