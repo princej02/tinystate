@@ -1,5 +1,25 @@
 # tinystate - v1.0.0
 
+A tiny, type-safe state machine with exhaustive event handling.
+
+## Features
+
+- 🎯 **Type-safe** — Invalid events are caught at compile time
+- 🔒 **Immutable** — State is frozen in development to prevent mutations
+- 📦 **Tiny** — Zero dependencies, ~1KB minified
+- 🧩 **Exhaustive switches** — TypeScript ensures all events are handled
+- 🎭 **Flexible** — States can have different shapes
+
+## Installation
+
+```bash
+npm install tinystate
+# or
+bun add tinystate
+# or
+yarn add tinystate
+```
+
 ## Getting started
 
 ```ts
@@ -90,7 +110,7 @@ game.send({ type: 'START' })
 game.send({ type: 'SCORE', points: 100 })
 ```
 
-## Stability Note
+## Stability
 
 tinystate v1.0.0 follows semantic versioning:
 
@@ -99,3 +119,5 @@ tinystate v1.0.0 follows semantic versioning:
 - MINOR: New optional methods on the actor (e.g. onTransition, reset), new config options (e.g. context, middleware), or additional helper exports. Existing code continues to work unchanged.
 
 - MAJOR: Changing createMachine signature, removing or renaming getState/send/subscribe, changing send to return a value, breaking the default: never exhaustiveness check, or dropping Node.js 18 support.
+
+The promise: Any code written for v1.0.0 works in all v1.x.x releases.
