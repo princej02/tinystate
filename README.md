@@ -13,11 +13,11 @@ A tiny, type-safe state machine with exhaustive event handling.
 ## Installation
 
 ```bash
-npm install tinystate
+npm install @prince_j/tinystate
 # or
-bun add tinystate
+bun add @prince_j/tinystate
 # or
-yarn add tinystate
+yarn add @prince_j/tinystate
 ```
 
 ## Getting started
